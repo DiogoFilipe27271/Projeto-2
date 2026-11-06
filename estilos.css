@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1b1b1b;
+	color: #f2f2f2;
+	font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+	color: #e10600;
+	font-family: Verdana, sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.bloco {
+	background-color: #2b2b2b;
+	margin: 20px 0;
+	padding: 15px;
+}
+
+.capa {
+	float: right;
+	width: 40%;
+	margin: 0 0 1em 1em;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.destaque {
+	background-color: #ffcc00;
+	color: #1b1b1b;
+	margin: 10px 40px;
+	padding: 10px;
+}
+
+.galeria img {
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+}
+
+a {
+	color: #ffcc00;
+}
+
+
+/*
+Avaliação Metacognitiva
+
+1. Desafio na capa:
+A regra mais difícil foi a da classe .capa, que põe a imagem à direita do texto.
+Ao início não percebia porque é que a regra só funcionava numa imagem. Depois
+percebi que a regra só se aplica à imagem que tem class="capa" no HTML. Se eu
+tirar a classe, a imagem perde o float e o tamanho. Por isso decidi deixá-la.
+
+2. Correção de Sintaxe:
+O meu erro mais comum foi esquecer-me de tags. Por exemplo, apaguei sem querer a
+tag de abertura <html> e tive de voltar ao ficheiro para a pôr outra vez. Também
+tive de confirmar se o nome no href do <link> era igual ao do ficheiro estilos.css.
+
+3. Autoria (href):
+O href serve para dizer onde está uma coisa. No <a> é o endereço do site que abre
+quando clico na ligação. No <link> é o nome do ficheiro CSS que a página vai usar.
+Se o href estiver mal escrito, a ligação não funciona ou a página fica sem estilos.
+*/
